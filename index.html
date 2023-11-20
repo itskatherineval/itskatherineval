@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Coffee Shop | Prepara el mejor café en casa</title>
+    <meta name="description" content="¡Hola Cofee Lover! En The Coffee Shop consigue los mejores productos para preparar el mejor café en casa ¡Ingresa y accede a los mejores precios!">
+    <meta name="keywords" content="café, cafe, lima, barista, coffee, cafetera, cafe de especialidad, the coffee shop">
+
+	<link rel="stylesheet" href="css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!--AQUÍ INICIA LA TOPBAR-->	
+    <a id="link" href="#productos">
+        <section id="mensajesSuperiores" class="topBar">
+            <div class="mensajeSuperior">Envíos a todo Perú en 24 horas 🚚 ¡Comprar ahora! </div>
+            <div class="mensajeSuperior">Envíos gratis por compras mayores a S/150  👉 ¡Comprar ahora!</div>
+        </section>
+    </a>
+    <!--AQUÍ TERMINA LA TOPBAR-->	
+   
+    <!--AQUÍ INICIA LA NAV-->	 
+    <nav id= "navBar" class="navStyle">   
+        <div class="grid-layout-navBar">
+            
+            <div class="div-logotipo">
+                <a href="index.html">
+                    <img src="img/the_coffee_shop_logo.png" class="logo-style">
+                </a>
+            </div>
+
+            <div class="grid-layout-categorias">
+                <a href="#productos"><p id="todos" class="boton-categoria">TODOS LOS PRODUCTOS</p></a>
+                <a href="#productos"><p id="Cafés de especialidad" class="boton-categoria">CAFÉS DE ESPECIALIDAD</p></a>
+                <a href="#productos"><p id="Cafeteras" class="boton-categoria">CAFETERAS</p></a>
+                <a href="#productos"><p id="Máquinas" class="boton-categoria">MÁQUINAS</p></a>
+                <a href="#productos"><p id="Barista ☕" class="boton-categoria">BARISTA ☕</p></a>
+            </div>
+
+            <div class="boton-carrito">
+                <a href="carrito.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+                        <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                    </svg>
+                </a>
+                <span id="Cantidad" class="cantidad"> 0</span>
+            </div>
+
+        </div>     
+    </nav>
+
+    <!--AQUÍ TERMINA LA NAV-->	
+        
+    <!--AQUÍ INICIA EL SLIDER-->	
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="4000">
+                <img src="img/slider_one.png" class="d-block w-100 carousel-opacity" alt="productos">
+                    <div class="carousel-caption pb-5">
+                        <h2 class="sliderText pb-3">Tenemos la mejor colección barista</h2>
+                        <a href="#productos">
+                            <button id="btn-todos-los-productos"class="boton-ver-productos">Ver productos</button>
+                        </a>
+                    </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="img/slider_two.png" class="d-block w-100 carousel-opacity" alt="Cafe de especialidad">
+                    <div class="carousel-caption pb-5">
+                        <h2 class="sliderText pb-3">Cafés de especialidad</h2>
+                        <a href="#productos">
+                            <button id="btn-cafes-de-especialidad" class="boton-ver-productos">Ver productos</button>
+                        </a>	
+                    </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="img/slider_three.png" class="d-block w-100 carousel-opacity" alt="Maquina de cafe">
+                    <div class="carousel-caption pb-5">
+                        <h2 class="sliderText pb-3">Máquinas de café para baristas</h2>
+                        <a href="#productos">
+                            <button id="btn-maquinas" class="boton-ver-productos">Ver productos</button>
+                        </a>	
+                  </div>
+              </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+     <!--AQUÍ TERMINA EL SLIDER-->
+
+     <!--AQUÍ INICIA PRODUCTOS-->
+
+     <main id="productos">
+        <section class="text-center">
+            <h1 id="titulo-principal" class="titulo-principal">Productos para un <b>#CoffeeLover</b></h1>
+            <p class="subtitulo-principal">Ten la experiencia de preparar un buen café en casa o en donde quieras</p>
+        </section>
+
+        <section id="contenedorGeneral" class="ms-4 me-5 pt-2">
+            <div id="contenedor_productos" class="grid-layout text-center"></div>
+        </section>
+
+        <!--AQUÍ iNICIA MODAL CONFIRMACIÓN AGREGAR PRODUCTO-->
+        <div class="modal fade" id="modalCarrito" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true" data-bs-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                
+                    <div class="modal-body text-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                        </svg>
+                        <h4 class="modal-title" id="modalTitle">Producto agregado exitosamente</h4>
+                    </div>
+    
+                    <div class="modal-footer-acciones">
+                        <button class="btn-seguir-comprando" data-bs-dismiss="modal">Seguir comprando</button>
+                        <button class="btn-ir-al-carro"><a href="./carrito.html" class="btn-enlace">Ir al carro</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--AQUÍ TERMINA MODAL CONFIRMACIÓN AGREGAR PRODUCTO-->
+
+    </main>
+    <!--AQUÍ TERMINA PRODUCTOS-->
+
+
+    <!--AQUÍ INICIA FOOTER-->
+    <footer class="footer">
+        <div class="grid-layout-footer">
+           
+            <div>
+                <h4 class="titulos-footer">Suscríbete a nuestra newsletter</h4>
+                <form id="formulario" action="submit" class="grid-layout-form">
+                    <input id="email" placeholder="Ingresa tu email aquí" class="form-control">
+                    <button class="btn-enviar">Enviar</button>
+                </form>
+            </div>
+            
+            <div>
+                <h4 class="titulos-footer">Contáctanos</h4>
+                <div class="grid-layout-whatsapp">
+                        <a href="https://wa.link/58vqfy">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                            </svg>
+                        </a>
+       
+                     <div>
+                            <p class="numero-whatsapp"> Escríbenos por Whatsapp al <b>942 972 959</b> para guiarte en tu compra.</p>
+                        </div>
+                </div>            
+            </div>
+
+        </div>
+    </footer>
+   
+
+    <!--AQUÍ TERMINA FOOTER-->
+</body>
+
+<script src="js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

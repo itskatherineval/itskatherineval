@@ -1,0 +1,115 @@
+[{
+    "id": "Cafe_01",
+    "nombre": "Fiesta de Cafes", 
+    "precio": 119,
+    "img": "img/products/cafe_fiesta_de_cafes.jpg",
+    "categoria": "Cafés de especialidad"
+},
+{
+    "id": "Cafe_02",
+    "nombre": "SABA Cafe Geisha - 250 gr", 
+    "precio": 57,
+    "img": "img/products/cafe_saba_geisha.jpg",
+    "categoria": "Cafés de especialidad"
+},
+{
+    "id": "Cafe_03",
+    "nombre": "4 orígenes Specialty Coffee", 
+    "precio": 70,
+    "img": "img/products/cafe_4_origenes_selectos_specialty_coffee.jpg",
+    "categoria": "Cafés de especialidad"
+
+},
+{
+    "id": "Cafe_04",
+    "nombre": "Café Peruano Lima Premium", 
+    "precio": 49,
+    "img": "img/products/cafe_lima_con_cafeina_premium.jpg",
+    "categoria": "Cafés de especialidad"
+
+},
+{
+    "id": "Cafetera_01",
+    "nombre": "Cafetera italiana Vintage", 
+    "precio": 80,
+    "img": "img/products/cafetera_italiana.jpg",
+    "categoria": "Cafeteras"
+},
+{
+    "id": "Cafetera_02",
+    "nombre": "Cafetera Chemex Filter Drip - 30 oz.", 
+    "precio": 240,
+    "img": "img/products/cafetera_chemex.jpg",
+    "categoria": "Cafeteras"
+},
+{
+    "id": "Cafetera_03",
+    "nombre": "Cafetera GAGGIA Classic Pro", 
+    "precio": 2950,
+    "img": "img/products/cafetera_gaggia_classicpro.jpg",
+    "categoria": "Cafeteras"
+},
+{
+    "id": "Cafetera_04",
+    "nombre": "Cafetera AeroPress Transparente", 
+    "precio": 225,
+    "img": "img/products/cafetera_aeropress_transparente.jpg",
+    "categoria": "Cafeteras"
+},
+{
+    "id": "Maquina_01",
+    "nombre": "Máquina Cafetera Bezzera Bz10", 
+    "precio": 8569,
+    "img": "img/products/maquina_bezzera.jpg",
+    "categoria": "Máquinas"
+},
+{
+    "id": "Maquina_02",
+    "nombre": "Cafetera Cadorna Prestige", 
+    "precio": 5950,
+    "img": "img/products/maquina_cadorna_prestige.jpg",
+    "categoria": "Máquinas"
+},
+{
+    "id": "Maquina_03",
+    "nombre": "Molino Gaggia Modelo MD15 Pro", 
+    "precio": 920,
+    "img": "img/products/maquina_molino_gaggia.jpg",
+    "categoria": "Máquinas"
+},
+{
+    "id": "Maquina_04",
+    "nombre": "Máquina Gaggia Classic Pro + Molino",
+    "precio": 4170,
+    "img": "img/products/maquina_gaggia_classic_prom_+_molino.jpg",
+    "categoria": "Máquinas"
+},
+{
+    "id": "Barista_01",
+    "nombre": "Balanza digital con temporizador", 
+    "precio": 83,
+    "img": "img/products/barista_balanza_digital.jpg",
+    "categoria": "Barista ☕"
+},
+{
+    "id": "Barista_02",
+    "nombre": "Jarra Barista - Negro Acero Inoxidable", 
+    "precio": 115,
+    "img": "img/products/barista_jarra.jpg",
+    "categoria": "Barista ☕"
+},
+{
+    "id": "Barista_03",
+    "nombre": "Distribuidor de 28 agujas con giro", 
+    "precio": 180,
+    "img": "img/products/barista_distribuidor_28_agujas.jpg",
+    "categoria": "Barista ☕"
+},
+{
+    "id": "Barista_04",
+    "nombre": "Portafiltro naked madera - Gaggia 58mm",
+    "precio": 460,
+    "img": "img/products/barista_portafiltro.jpg",
+    "categoria": "Barista ☕"
+}
+]
